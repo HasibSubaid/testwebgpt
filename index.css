@@ -1,0 +1,61 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 10px;
+    width: 300px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
